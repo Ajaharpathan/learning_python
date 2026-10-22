@@ -100,20 +100,57 @@
 
 
 
-# n = 236
-# rev = 0
+n = 236
+rev = 0
 
-# while n > 0:
-#     r = n % 10
-#     rev = rev * 10 + r
-#     n = n // 10
+while n > 0:
+    r = n % 10
+    rev = rev * 10 + r
+    n = n // 10
 
-# print("Reverse number is:", rev)
+print("Reverse number is:", rev)
 
-n=236, rev = 0
-d = n % 10
-while n>0:
-    d=n%10
-    rev=rev*10+d
-    n=n//10
-    print("reverse =", rev)
+# n=236, rev = 0
+# d = n % 10
+# while n>0:
+#     d=n%10
+#     rev=rev*10+d
+#     n=n//10
+#     print("reverse =", rev)
+
+
+# i = 5
+# while i >= 1:
+#     print(i)
+#     i -= 1
+# print("loop ended")
+
+# i = 1
+# while i <= 100:
+#     print(i)
+#     i += 1
+# print("loop ended")    
+
+
+# i = 100
+# while i >= 1:
+#     print(i)
+#     i -= 1
+# print("loop ended")    
+
+
+# i = 1
+# while i  <= 10:
+#     print(5*i)
+#     i += 1
+
+
+# n = 1
+# while n <= 10:
+#         print(3 * n)
+#         n += 1
+
+j = 1
+while j <= 10:
+        print(6 * j)
+        j += 1     
