@@ -167,15 +167,159 @@
 
 #11. startswith()   endswith()
 
-s="  "
-print(s.isalnum())
-print(s.isalpha())
-print(s.isdigit())
-print(s.islower())
-print(s.istitle())
-print(s.isspace())
+# s="  "
+# print(s.isalnum())
+# print(s.isalpha())
+# print(s.isdigit())
+# print(s.islower())
+# print(s.istitle())
+# print(s.isspace())
 
 
-s="python is easy to learn"
-print(s.startswith('Py'))
-print(s.endswith('n'))
+# s="python is easy to learn"
+# print(s.startswith('Py'))
+# print(s.endswith('n'))
+# print(s.startswith('python'))
+
+
+
+
+# n="Python is easy for learning"
+# s1=n.replace("Python", "c++")
+# print(s1)
+
+# l1="python", "is", "easy", "learn"
+# s1="".join(l1)
+# print(s1)
+
+
+
+#  LIST --MUTABLE
+#create list
+#a. empty list
+# l1=[]
+# print(l1)
+# print(type(l1))
+
+#b. Initialize
+
+# l1=[10, 20, "python", 10]
+# print(l1)
+# print(type(l1))
+
+# #dynamic input
+# l1=eval(input("enter list of data:"))
+# print(l1)
+# print(type(l1))
+
+# #d. list()
+# t=(10, 20, 30)
+# print(t)
+# print(type(t))
+# l1=list(t)
+# print(l1)
+# print(type(l1))
+
+# #e. split()
+# s="python is easy"
+# l1=s.split()
+# print(l1)
+
+# l1=[10, 20, 30, 40, 50]
+# #traversing(for or while)
+# for i in l1:
+#     print(i)
+
+# i = 0
+# while i < len(l1):
+#     print(l1[i])
+#     i += 1    
+
+#a.count()
+# l1=[10, 20, 30, 40, 50, 60, 10, 20, 40]
+# print(l1.count(10))
+
+# #b.index()
+# l1=[10, 20, 30, 40, 50, 60, 10, 20, 40]
+# print(l1.index(20))
+# print(l1.index(60))
+
+#c.append()
+# l1=[10, 20, 30, 40, 50, 60, 10, 20, 40]
+# l1.append(80, 90)
+# print(l1)
+
+
+#d.insert()
+# l1=[10, 20, 30, 40, 50, 60, 10, 20, 40]
+# l1.insert(2, 100)
+# l1.insert(-3, 100)
+# print(l1)
+
+#e. extend()
+# l1=[10, 20, 30, 40,]
+# l2=[50, 60]
+# l2=4, 5, 6
+# l2="java"
+# l1.extend(l2)
+# print(l1)
+
+
+# l1=[10, 20, 30]
+# l2=[40, 50]
+
+# l1.extend(l2)
+# print(l1)
+
+# l1.append(l2)
+# print(l1)
+
+
+# #create a list even number and it divisible by 7
+# l1=[]
+# for x in range(101):
+#     if x%2==0 and x%7==0:
+#         l1.append(x)
+# print(l1)        
+
+# l1=[]
+# for x in range(0,100,2):
+#     if x%7==0:
+#         l1.append(x)
+# print(l1)        
+
+#f. remove(), pop(), pop(index), clear()
+# l1=[10, 20, 30, 40, 10, 50, 60]
+# #l1.remove(10)
+# # l1.remove(55) #value error
+# #l1.pop() #
+# l1.pop(2) #position index pop only 
+# #l1.clear() data delete but list still exist
+# #del l1 all the data delete
+# print(l1)
+
+# l1=[10, 5, 40, 30, 25]
+#l1.reverse()
+# l1.sort()
+#l1.sort(reverse=True)
+# print(l1)
+
+#cloning (using slicing and copy)
+# l1=[10, 20, 30]
+# l2=l1[:]
+# l2=l1.copy()
+# print(l1)
+# print(l2)
+# print("l1 address:", id(l1))
+# print("l2 address:", id(l2))
+# l1[2]=100
+# print(l1)
+# print(l2)
+
+#aliasing (=)
+l1=[10, 20, 30]
+l2=l1
+print(l1)
+print(l2)
+print("l2 address:", id(l2))
+print("l2 address:", id(l2))
