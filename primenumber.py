@@ -295,7 +295,7 @@
 # #l1.pop() #
 # l1.pop(2) #position index pop only 
 # #l1.clear() data delete but list still exist
-# #del l1 all the data delete
+# #del l1 #all the data delete
 # print(l1)
 
 # l1=[10, 5, 40, 30, 25]
@@ -321,5 +321,5 @@ l1=[10, 20, 30]
 l2=l1
 print(l1)
 print(l2)
-print("l2 address:", id(l2))
+print("l2 address:", id(l1))
 print("l2 address:", id(l2))
