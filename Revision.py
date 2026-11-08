@@ -1,0 +1,13 @@
+l=[10, 20, 30]
+l.append("ajhar")
+print(l)
+l.remove(10)
+print(l)
+l.reverse()
+print(l)
+l.append(10)
+print(l)
+l.append(20)
+print(l)
+l.remove(20)
+print(l)
