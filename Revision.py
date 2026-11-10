@@ -36,36 +36,44 @@ else:
 # for i in range(1, 11):
 #     print(i)    
 
-for a in range(11, 50):
-    print(a)   
+# for a in range(11, 50):
+#     print(a)   
 
 
-names = ["azhar", "javed","harun", "mosin"]
+# names = ["azhar", "javed","harun", "mosin"]
 
-for names in names:
-    print(names)
+# for names in names:
+#     print(names)
 
-print( )
+# print( )
 
-city= ["pune", "mumbai", "latur", "ausa"] 
+# city= ["pune", "mumbai", "latur", "ausa"] 
 
-for city in city:
-    print(city)
+# for city in city:
+#     print(city)
 
 
-# for i in range(1, 11):
-#     print(5, "*", i, "=", 5 * i)
+# # for i in range(1, 11):
+# #     print(5, "*", i, "=", 5 * i)
 
-for a in range(1, 11):
-    print(7, "*", a, "=", 7 * a)
+# for a in range(1, 11):
+#     print(7, "*", a, "=", 7 * a)
 
-for b in range(1,11):
-    print(9, "*", b , "=", 9 * b)   
+# for b in range(1,11):
+#     print(9, "*", b , "=", 9 * b)   
 
-num = 5
-fact = 1
+# num = 5
+# fact = 1
 
-for i in range(1, num +1):
-    fact = fact * i
+# for i in range(1, num +1):
+#     fact = fact * i
 
-print("Factorial =", fact)    
+# print("Factorial =", fact)    
+
+
+
+for i in range(1, 21):
+    if i % 2 == 0:
+        print(i)
+    else:
+        pass
