@@ -12,13 +12,13 @@
 # l.remove(20)
 # print(l)
 
-print("hello world")
-a = 10
-b = 20
-print("Addition of two number is", a+b)
-print("Substraction is two number is", a-b)
-print("Multiplication of two number is:", a*b)
-print("Division of two number is:", a/b)
+# print("hello world")
+# a = 10
+# b = 20
+# print("Addition of two number is", a+b)
+# print("Substraction is two number is", a-b)
+# print("Multiplication of two number is:", a*b)
+# print("Division of two number is:", a/b)
 
 # a = int(input("Enter your number:"))
 # if (a % 2 == 0):
@@ -26,12 +26,12 @@ print("Division of two number is:", a/b)
 # else:
 #     print("Number is odd")
 
-a = 50
-b = 20
-if a > b:
-    print("A is largest")
-else:
-    print("B is largest")    
+# a = 50
+# b = 20
+# if a > b:
+#     print("A is largest")
+# else:
+#     print("B is largest")    
 
 # for i in range(1, 11):
 #     print(i)    
@@ -72,8 +72,35 @@ else:
 
 
 
-for i in range(1, 21):
-    if i % 2 == 0:
-        print(i)
+# for i in range(1, 21):
+#     if i % 2 == 0:
+#         print(i)
+#     else:
+#         pass
+
+# for i in range(10):
+#     if i == 8:
+#         break
+#     print(i)    
+
+
+#if statment
+# age = int(input("Enter your age:"))
+# if age>18:
+#     print("You are eligible for voting")
+# else:
+#     print("You are not eligible for voting")    
+
+
+#nested if
+age = 15
+owncar = 'true'
+
+if (age>=18):
+    print("you can drive car")
+    if (owncar == 'true'):
+        print("drive your car")
     else:
-        pass
+        print("first purchase your car")
+else:
+    print("You can't drive car")    
