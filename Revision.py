@@ -197,9 +197,62 @@
 # else:
 #     print("Number 3 is greater")
 
-a = int(input("Enter your number: "))
+# a = int(input("Enter your number: "))
 
-if(a % 7 == 0):
-    print("Number is multiple by 7")
-else:
-    print("Numbe is not multiple by 7")    
+# if(a % 7 == 0):
+#     print("Number is multiple by 7")
+# else:
+#     print("Numbe is not multiple by 7")    
+
+# marks = [23.5, 10, 5, 80, 56.6, 90.4]
+# print(marks)
+
+# mark = (23, 65, 67)
+# print(mark)
+# print(type(mark))
+# print(type(marks))
+# print(marks.append("ajahar"))
+# print(marks.sort())
+# print(marks.sort(reverse=True))
+# print(marks.remove(5))
+# print(marks.insert(0, "pathan"))
+# print(marks.insert(3, "javed"))
+# print(marks)
+
+# tup = (2, 4, 6 , 7, 4, 8)
+# print(tup)
+# print(type(tup))
+# print(tup.index(4))
+# print(tup.count(4))
+
+# mov =  []
+
+# mov.append(input("Enter 1st movie:"))
+# mov.append( input("Enter 2nd movie:"))
+# mov.append(input("Enter 3rd movie:"))
+
+# print(mov)
+
+# list.append(mov1)
+# list.append(mov2)
+# list.append(mov3)
+
+# print(list)
+# print(type(list))
+
+# list1 = [1, 2, 1]
+
+# copy_list = list1.copy()
+# copy_list.reverse()
+
+# if(copy_list == list1):
+#     print("Palindrone Number")
+# else:
+#     print("No palindrone")
+
+# grade = ("D", "A", "A", "B", "B" ,"A")
+# print(grade.count("A")) 
+
+list1 = ["D", "A", "A", "B", "B" ,"A"]
+list1.sort()
+print(list1)
