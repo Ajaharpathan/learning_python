@@ -253,6 +253,15 @@
 # grade = ("D", "A", "A", "B", "B" ,"A")
 # print(grade.count("A")) 
 
-list1 = ["D", "A", "A", "B", "B" ,"A"]
-list1.sort()
-print(list1)
+# list1 = ["D", "A", "A", "B", "B" ,"A"]
+# list1.sort()
+# print(list1)
+
+list2 = [20, 10, 5, 11, 30, 40]
+# list2.sort()
+# list2.remove(20)
+# list2.reverse()
+# list2.count(list2)
+list2.append(903)
+
+print(list2)
