@@ -14,7 +14,7 @@ print("inst var t1:", t1.__dict__)
 print("inst var t2:", t2.__dict__)
 #t1.m1()
 print("inist var t1:", t1.__dict__)
-# print("inst var t2:", t2.__dict__)
+print("inst var t2:", t2.__dict__)
 
 
 #3. Updates instrance variable
