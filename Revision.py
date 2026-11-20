@@ -257,11 +257,44 @@
 # list1.sort()
 # print(list1)
 
-list2 = [20, 10, 5, 11, 30, 40]
+# list2 = [20, 10, 5, 11, 30, 40]
 # list2.sort()
 # list2.remove(20)
 # list2.reverse()
 # list2.count(list2)
-list2.append(903)
+# list2.append(903)
 
-print(list2)
+# print(list2)
+
+
+#Nested function 19/11/2026
+
+# def Outer():
+#     print("hello world!")
+#     def Inner():
+#         print("Welcome to inner function")
+#     Inner()    
+
+
+# Outer()
+
+
+def Outer():
+    print("This is Outer function:")
+
+    def Inner1():
+        print("This is inner1 function")
+    Inner1()
+
+    def Inner2():
+            print("this is inner2 function")
+
+    Inner2()
+
+    def Inner3():
+                print("this is inner3 function")
+
+    Inner3()
+
+
+Outer()
