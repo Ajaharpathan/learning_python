@@ -21,4 +21,4 @@ class Employee:
         
 
 e=Employee(101, "ajahar", 25000)
-e.show                    
+e.show()                   
