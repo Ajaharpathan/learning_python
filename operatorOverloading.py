@@ -5,6 +5,8 @@ class Employee:
         self.name=name
         self.salperday= salperday
 
+    def __mul__(self, other):
+        return self.salperday * other.noofdays
 
 
 class Timesheet:
@@ -13,16 +15,15 @@ class Timesheet:
         self.noofdays=noofdays
 
 
-    def __mul__(self, other):
-        return self.noofdays * other.salperday
+   
 
 
 
 
 e1=Employee("ajahar", 9000)
 t1=Timesheet("Pathan", 30)
-#print("total salary:",e1*t1)
-print("total salary:",t1*e1)
+print("total salary:",e1*t1)
+# print("total salary:",t1*e1)
 
 
 

@@ -279,22 +279,60 @@
 # Outer()
 
 
-def Outer():
-    print("This is Outer function:")
+# def Outer():
+#     print("This is Outer function:")
 
-    def Inner1():
-        print("This is inner1 function")
-    Inner1()
+#     def Inner1():
+#         print("This is inner1 function")
+#     Inner1()
 
-    def Inner2():
-            print("this is inner2 function")
+#     def Inner2():
+#             print("this is inner2 function")
 
-    Inner2()
+#     Inner2()
 
-    def Inner3():
-                print("this is inner3 function")
+#     def Inner3():
+#                 print("this is inner3 function")
 
-    Inner3()
+#     Inner3()
 
 
-Outer()
+# Outer()
+
+
+class Animal:
+    def sound(self):
+        print("Animal shouts")
+
+class Birds:
+    def sound(self):
+        print("Birds sing")
+
+class Pet:
+    def sound(self):
+        print("Pets cry")
+
+class Vehicle:
+    def sound(self):
+        print("vehicles are run")
+
+class College:
+    def sound(self):
+        print("college Students")
+
+class Company:
+    def sound(self):
+        print("Company Employess")
+
+class Retrive:
+    def __init__(self,obj):
+      obj.sound()
+
+
+Retrive(Animal())
+Retrive(Birds())
+Retrive(Pet())
+Retrive(Vehicle())
+Retrive(College())
+Retrive(Company())      
+                

@@ -1,9 +1,9 @@
 
 class SBI:
     def calculate(self):
-        loan = 500000
-        years = 5
-        rate = 8
+        loan = int(input("Enter your loan"))
+        years = int(input("Enter Number of Years"))
+        rate = int(input("Enter rate of Interest"))
 
         interest = (loan * rate * years) / 100
         total = loan + interest
