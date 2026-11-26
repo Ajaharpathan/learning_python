@@ -300,39 +300,49 @@
 # Outer()
 
 
-class Animal:
-    def sound(self):
-        print("Animal shouts")
+# class Animal:
+#     def sound(self):
+#         print("Animal shouts")
 
-class Birds:
-    def sound(self):
-        print("Birds sing")
+# class Birds:
+#     def sound(self):
+#         print("Birds sing")
 
-class Pet:
-    def sound(self):
-        print("Pets cry")
+# class Pet:
+#     def sound(self):
+#         print("Pets cry")
 
-class Vehicle:
-    def sound(self):
-        print("vehicles are run")
+# class Vehicle:
+#     def sound(self):
+#         print("vehicles are run")
 
-class College:
-    def sound(self):
-        print("college Students")
+# class College:
+#     def sound(self):
+#         print("college Students")
 
-class Company:
-    def sound(self):
-        print("Company Employess")
+# class Company:
+#     def sound(self):
+#         print("Company Employess")
 
-class Retrive:
-    def __init__(self,obj):
-      obj.sound()
+# class Retrive:
+#     def __init__(self,obj):
+#       obj.sound()
 
 
-Retrive(Animal())
-Retrive(Birds())
-Retrive(Pet())
-Retrive(Vehicle())
-Retrive(College()) 
-Retrive(Company())      
+# Retrive(Animal())
+# Retrive(Birds())
+# Retrive(Pet())
+# Retrive(Vehicle())
+# Retrive(College()) 
+# Retrive(Company())      
                 
+class Addition:
+    def __init__(self):
+        self.a=int(input("Enter first number")) 
+        self.b=int(input("Enter second number"))
+
+    def show(self):
+        print(self.a+self.b)
+
+a1=Addition()
+a1.show()              
