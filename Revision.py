@@ -336,13 +336,78 @@
 # Retrive(College()) 
 # Retrive(Company())      
                 
-class Addition:
+# class Addition:
+#     def __init__(self):
+#         self.a=int(input("Enter first number")) 
+#         self.b=int(input("Enter second number"))
+
+#     def show(self):
+#         print(self.a+self.b)
+
+# a1=Addition()
+# a1.show()    
+# 
+# 
+class Bank:
     def __init__(self):
-        self.a=int(input("Enter first number")) 
-        self.b=int(input("Enter second number"))
+        self.loan=int(input("Enter your loan")) 
+        self.years=int(input("Enter Number of years"))
 
     def show(self):
-        print(self.a+self.b)
+        print("Loan amount:", self.loan) 
+        print("Number of years", self.years)
 
-a1=Addition()
-a1.show()              
+class SBI(Bank):
+    def calculate(self):
+        rate=5
+        interest = (self.loan * rate * self.years) / 100
+        total = self.loan + interest
+
+        
+        print("__________") 
+        print("SBI Bank Statement") 
+        self.show()
+        print("SBI rate:", rate , "%")
+        print("Number of interest", interest)
+        print("Total amount:", total)   
+
+
+
+class HDFC(Bank):
+    def calculate(self):
+        rate = 4
+        interest= (self.loan * rate * self.years) / 100
+        total= self.loan + interest
+
+        
+        print("_____________")
+        print("HDFC Bank")
+        self.show()
+        print("Bank Rate:", rate)
+        print("Bank Interest:", interest)
+        print("total amount:", total)
+
+
+class AXIS(Bank):
+    def calculate(self):
+        rate = 8
+        interest = (self.loan * rate * self.years) / 100
+        total = self.loan + interest
+
+
+       
+
+        print("____________-")
+        print("AXIS Bank ")
+        self.show()
+        print("Bank rate:", rate)
+        print("Bank interst", interest)
+        print("total amount:", total)
+
+s1=SBI()
+h1=HDFC()
+a1=AXIS()
+
+s1.calculate()
+h1.calculate()
+a1.calculate()

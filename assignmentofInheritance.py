@@ -1,4 +1,3 @@
-
 class Bank:
     def __init__(self):
         self.loan = 500000
