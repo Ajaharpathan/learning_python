@@ -348,66 +348,147 @@
 # a1.show()    
 # 
 # 
-class Bank:
-    def __init__(self):
-        self.loan=int(input("Enter your loan")) 
-        self.years=int(input("Enter Number of years"))
+# class Bank:
+#     def __init__(self):
+#         self.loan=int(input("Enter your loan")) 
+#         self.years=int(input("Enter Number of years"))
 
-    def show(self):
-        print("Loan amount:", self.loan) 
-        print("Number of years", self.years)
+#     def show(self):
+#         print("Loan amount:", self.loan) 
+#         print("Number of years", self.years)
 
-class SBI(Bank):
-    def calculate(self):
-        rate=5
-        interest = (self.loan * rate * self.years) / 100
-        total = self.loan + interest
-
-        
-        print("__________") 
-        print("SBI Bank Statement") 
-        self.show()
-        print("SBI rate:", rate , "%")
-        print("Number of interest", interest)
-        print("Total amount:", total)   
-
-
-
-class HDFC(Bank):
-    def calculate(self):
-        rate = 4
-        interest= (self.loan * rate * self.years) / 100
-        total= self.loan + interest
+# class SBI(Bank):
+#     def calculate(self):
+#         rate=5
+#         interest = (self.loan * rate * self.years) / 100
+#         total = self.loan + interest
 
         
-        print("_____________")
-        print("HDFC Bank")
-        self.show()
-        print("Bank Rate:", rate)
-        print("Bank Interest:", interest)
-        print("total amount:", total)
+#         print("__________") 
+#         print("SBI Bank Statement") 
+#         self.show()
+#         print("SBI rate:", rate , "%")
+#         print("Number of interest", interest)
+#         print("Total amount:", total)   
 
 
-class AXIS(Bank):
-    def calculate(self):
-        rate = 8
-        interest = (self.loan * rate * self.years) / 100
-        total = self.loan + interest
+
+# class HDFC(Bank):
+#     def calculate(self):
+#         rate = 4
+#         interest= (self.loan * rate * self.years) / 100
+#         total= self.loan + interest
+
+        
+#         print("_____________")
+#         print("HDFC Bank")
+#         self.show()
+#         print("Bank Rate:", rate)
+#         print("Bank Interest:", interest)
+#         print("total amount:", total)
+
+
+# class AXIS(Bank):
+#     def calculate(self):
+#         rate = 8
+#         interest = (self.loan * rate * self.years) / 100
+#         total = self.loan + interest
 
 
        
 
-        print("____________-")
-        print("AXIS Bank ")
-        self.show()
-        print("Bank rate:", rate)
-        print("Bank interst", interest)
-        print("total amount:", total)
+#         print("____________-")
+#         print("AXIS Bank ")
+#         self.show()
+#         print("Bank rate:", rate)
+#         print("Bank interst", interest)
+#         print("total amount:", total)
 
-s1=SBI()
-h1=HDFC()
-a1=AXIS()
+# s1=SBI()
+# h1=HDFC()
+# a1=AXIS()
 
-s1.calculate()
-h1.calculate()
-a1.calculate()
+# s1.calculate()
+# h1.calculate()
+# a1.calculate()
+
+# case 1
+# try:
+#     print("try")
+
+#case 2
+# except:
+# print("hello")
+
+#case 3
+# try:
+#     print("try")
+# except:
+#     print("except")
+
+#case 4
+# try:
+#     print("try")
+# finally:
+#     print("Finally")
+
+#case 5
+# try:
+#     print("try")
+# except:
+#     print("Except") 
+# else:
+#     print("else")       
+
+#case 6
+# try:
+#     print("try")
+# else:
+# print("else")    
+
+# case 7
+# try:
+#     print("try")
+# else:
+# print("else")
+# finally:
+#     print("finally")    
+
+#case  8
+# try:
+#     print("try")
+# except:
+#     print("except-1")
+# except YYY:
+#     print("except-2")        
+
+
+#case 9
+# try:
+#     print("try")
+# except:
+#     print("except-1")
+
+# else:
+#     print("else")
+# else:
+#     print("else")
+
+
+#case 10
+# try:
+#     print("try")
+# print("hello") 
+# except:
+# print("except")   
+
+# case 11
+try:
+    print("try")
+except:
+    print("except") 
+
+if 10>20:
+    print("if")
+else:
+    print("else")           
